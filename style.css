@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+.navigation-bar {
+  position: fixed;
+  z-index: 1;
+}
+
+/* <!-- First navigation bar start  --> */
+
+.navbar-1 {
+  background-color: orange;
+  height: 28px;
+  width: 1536.3px;
+  color: black;
+}
+.bar1 {
+  display: flex;
+  align-items: center;
+  padding: 3px 0px 0px 95px;
+}
+.call-segment {
+  display: flex;
+  padding-right: 22px;
+}
+.call-logo {
+  height: 12.4px;
+  padding: 3px 3px 0px 0px;
+}
+.mail-segment {
+  display: flex;
+}
+.mail-logo {
+  height: 14.4px;
+  padding: 2px 3px 0px 0px;
+}
+
+/* -- First navigation bar End  -- */
+
+/* -- Second navigation bar start  -- */
+
+.navbar-2 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  height: 60px;
+  width: 1536.3px;
+  display: flex;
+  box-sizing: border-box;
+}
+.logo-name-segment {
+  padding: 0px 280px 0px 92px;
+  display: flex;
+}
+
+.main-logo {
+  height: 50px;
+  padding: 3px 0px 0px 0px;
+}
+.main-logo:hover {
+  height: 52px;
+}
+
+.web-name {
+  font-family: "Dancing Script", cursive;
+  padding: 9px 0px 0px 11px;
+  font-size: 38px;
+}
+.web-name:hover {
+  color: orange;
+  transform: scale(1.1, 1);
+}
+.options {
+  padding: 0px 0px 0px 431px;
+}
+.list-items {
+  padding: 0px 0px 0px 0px;
+}
+.navbar-option {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: flex;
+  padding: 0px 0px 0px 0px;
+}
+.item-name {
+  color: orange;
+  font-size: 19px;
+  padding: 16px 12px;
+}
+.item-name:hover {
+  color: rgb(255, 255, 255);
+}
+.search-logo {
+  height: 19px;
+  padding: 20px 0px 0px 8px;
+}
+
+/* -- Second navigation bar end  -- */
+
+/* bannar segment start   */
+
+.main-section {
+  padding: 89px 0px 0px 0px;
+  background: url(Images/Bannar.jpg);
+  width: 1522px;
+  height: 625px;
+}
+.bannar-details {
+  padding: 206px 0px 0px 0px;
+}
+
+.bannar-title {
+  color: orange;
+  font-family: "Dancing Script", cursive;
+  font-size: 46px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.home-page-title {
+  font-size: 55px;
+  letter-spacing: 1.2px;
+  font-family: "Alfa Slab One", cursive;
+  color: orange;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+.home-page-title:hover {
+  font-size: 57px;
+  letter-spacing: 15px;
+}
+.devider {
+  color: orange;
+  height: 49px;
+  width: 96px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 725px;
+}
+
+/*  bannar segment end   */
+
+/*   Article part start  */
+
+.article-body {
+  height: 1882px;
+  width: 1522px;
+  box-sizing: border-box;
+}
+
+/*  breeding segment start  */
+
+.breeding {
+  height: 632px;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 27px;
+  letter-spacing: 5.2px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.title-name-underline {
+  height: 26px;
+  width: 84px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 715px;
+  padding: 15px 0px 0px 0px;
+}
+.article-segments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 67px 0px;
+}
+h5 {
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  display: flex;
+  height: 358px;
+  width: 536.575px;
+  max-width: 58ch;
+  letter-spacing: 0.1px;
+  line-height: 27.5px;
+  margin: 0px 71px 0px 0px;
+}
+.article-images {
+  display: flex;
+  height: 358px;
+  box-shadow: 0px 0px 18px rgb(153, 153, 153);
+  transition-duration: 0.4s;
+}
+
+.article-images:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*  breeding segment end  */
+
+/*  treaning segment Start  */
+
+.training {
+  height: 632px;
+  box-sizing: border-box;
+}
+.training-info-text {
+  margin: 0px 0px 0px 71px;
+}
+
+/* Daytime Perching segment     ;;;;;;;; */
+
+/* didnt need any thing because i use another articles classes in this segment  */

@@ -1,0 +1,249 @@
+/* Start of portfolio segment  */
+
+.portfolio-segment {
+  height: 965px;
+}
+
+/* ????  Portfolio About me    .... */
+
+.portfolio-header {
+  height: 186px;
+  width: auto;
+  background: url(Images/aboutme.jpg) no-repeat;
+}
+.portfolio-header-text {
+  color: black;
+  font-size: 81px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 54px 0px 0px 0px;
+}
+/* ...portfolio body        //// */
+.portfolio-body {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 133px;
+}
+.portfolio-info {
+  padding: 28px 0px 0px 0px;
+}
+.portfolio-details {
+  font-size: 20px;
+  line-height: 1.7;
+  text-align: justify;
+}
+.info-title {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 3;
+}
+.portfolio-image-section {
+  display: flex;
+}
+.portfolio-image {
+  height: 635px;
+  margin: 72px 0px 0px 103px;
+  box-shadow: 0px 0px 18px rgb(153 153 153);
+}
+
+/* contract segment header start ( contact bannar start ) */
+
+.contract-header {
+  background-image: url(Images/contract-header1.jpg);
+  height: 381px;
+}
+
+.contract-header-title {
+  font-size: 56px;
+  color: black;
+  display: flex;
+  font-family: "Otomanopee One", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 125px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.talk-decoretion {
+  color: orange;
+  font-size: 60px;
+  word-spacing: 3px;
+}
+.contract-link-btn {
+  text-decoration: none;
+}
+
+.contract-btn {
+  display: flex;
+  justify-content: center;
+  color: orange;
+  background-color: black;
+  height: 44px;
+  width: 157px;
+  border-radius: 25px;
+  margin: 0px 0px 0px 661px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 12px 0px 0px 0px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  transition-duration: 0.5s;
+}
+
+.contract-btn:hover {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+}
+
+/* contract bannar end  */
+
+/*  contract segment body ( main segment start ) */
+
+.contract-form {
+  height: 704px;
+}
+.contract-form-header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(89, 89, 89);
+}
+
+.contract-form-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 900;
+  letter-spacing: 2.2px;
+}
+
+/*  contract segment body working part here.......................... */
+
+/*          contract-segment-form body */
+
+.contract-form-body {
+  height: 634px;
+  background-image: url(Images/q1.jpg);
+}
+.form-box-segment {
+  height: 634px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.form-box {
+  padding: 69px 38px 0px 38px;
+}
+.form-black-box {
+  background-color: black;
+  color: orange;
+  height: 494px;
+  width: 788px;
+  box-sizing: border-box;
+  opacity: 0.7;
+}
+
+.box-title {
+  font-size: 34px;
+  font-weight: 900;
+  padding: 0px 0px 46px 0px;
+}
+.input-field {
+  background-color: #fff6e6;
+  color: solid black;
+  outline: 0;
+  border: 0px;
+  margin: 0px 2px 15px 0px;
+}
+.p-info {
+  padding: 14px 168px 14px 13px;
+  border-left: 5px solid orange;
+}
+.p-message {
+  padding: 42px 512px 42px 13px;
+}
+.massage-send-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 0px 0px 0px;
+}
+.massage-send-btn-text {
+  padding: 0px 0px 0px 0px;
+  font-size: 13px;
+  border-radius: 85px;
+  color: black;
+  background-color: orange;
+  height: 55px;
+  display: flex;
+  width: 152px;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 37px 0px 0px;
+  word-spacing: 1.02px;
+  box-shadow: 1px 1px 5px rgb(89, 89, 89);
+  outline: 0;
+}
+.form-orange-box {
+  background-color: orange;
+  color: black;
+  height: 494px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.o-box-addess {
+  line-height: 32px;
+  font-size: 17px;
+  padding: 0px 0px 32px 0px;
+}
+
+/*          footer-segment-start */
+
+.footer-seg-1 {
+  height: 226px;
+  background-color: rgb(67, 78, 96);
+  box-sizing: border-box;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 77px 0px;
+}
+.row-2 {
+  padding: 0px 204px;
+}
+
+.titles-of-footer {
+  color: orange;
+  font-size: 19px;
+  padding: 0px 0px 17px 0px;
+  text-align: center;
+}
+
+.row-info-of-footer {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.social-accounts-logos {
+  padding: 2px 0px 0px 19px;
+}
+.social-account-logo {
+  height: 30px;
+  padding: 6px 3px 0px 0px;
+}
+
+.footer-seg-2 {
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  color: orange;
+}
